@@ -1,0 +1,18 @@
+.img{
+    width:  200px;
+    height: 150px;
+}
+.container{
+    background-color: green;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+
+
+}

@@ -1,0 +1,33 @@
+.img1{
+    height: 300px;
+    width: 100%;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.container {
+    position: relative;
+    display: inline-block; /* to adjust the width of the container to the image */
+    width: 100%;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    
+  }
+  .text{
+    position: absolute;
+    top: 26%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 165px;
+
+  }
+  
