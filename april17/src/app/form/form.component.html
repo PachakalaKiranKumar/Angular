@@ -1,0 +1,29 @@
+<div class="container" [ngStyle]="style2.dialoge">
+<mat-form-field [ngStyle]="style2.fields"appearance="fill">
+    <mat-label>FirstName</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <br>
+  <mat-form-field [ngStyle]="style2.fields"appearance="fill">
+    <mat-label>LastName</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <br>
+
+  <mat-form-field [ngStyle]="style2.fields"appearance="fill">
+    <mat-label>departments</mat-label>
+    <mat-select>
+      <mat-option value="one">cse</mat-option>
+      <mat-option value="two">ece</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <br>
+  <mat-form-field [ngStyle]="style2.fields"appearance="fill">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</div>
+  
