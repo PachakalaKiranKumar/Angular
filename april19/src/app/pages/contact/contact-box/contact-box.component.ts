@@ -7,5 +7,4 @@ import { Component,Input } from '@angular/core';
 })
 export class ContactBoxComponent {
   @Input()  contact:any;
-
 }
